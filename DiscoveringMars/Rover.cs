@@ -204,17 +204,6 @@ namespace DiscoveringMars
             return current;
         }
 
-        /// <summary>
-        /// Changes the direction according to the command
-        /// </summary>
-        /// <param name="current">Current direction</param>
-        /// <param name="command">Command to be exeuted</param>
-        /// <returns></returns>
-        Direction ChangeDirection(Direction current, string command)
-        {
-            return (Direction)Math.Abs((int)current + (command == "L" ? -1 : 1));
-        }
-
         public string GetCurrentPosition()
         {
             return $"{CurrentPosition.X} {CurrentPosition.Y} {CurrentPosition.Direction}";
