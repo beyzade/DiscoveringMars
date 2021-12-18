@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoveringMars", "DiscoveringMars\DiscoveringMars.csproj", "{1CDE7070-6FB5-49BF-8795-A3D8D13F1193}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{551A30A8-357A-48BD-B643-67908DC5AD2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
